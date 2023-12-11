@@ -6,6 +6,11 @@
     <title>Mi Página Web</title>
     <!-- Agrega enlaces a tus archivos CSS si los tienes -->
     <!-- <link rel="stylesheet" href="estilos.css"> -->
+    <script>
+        function mostrarAlerta() {
+            alert('Enlaces todavía inactivos');
+        }
+    </script>
 </head>
 <body>
 
@@ -15,9 +20,9 @@
 
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a onclick="mostrarAlerta()" href="#">Inicio</a></li>
+            <li><a onclick="mostrarAlerta()" href="#">Acerca de</a></li>
+            <li><a onclick="mostrarAlerta()" href="#">Contacto</a></li>
         </ul>
     </nav>
 
